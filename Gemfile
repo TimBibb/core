@@ -7,6 +7,7 @@ gem "rails", "~> 5"
 gem "grape"
 gem "grape-active_model_serializers"
 gem "api-pagination"
+gem "rack-cors", require: "rack/cors"
 
 # Server
 gem "puma", "~> 3"
